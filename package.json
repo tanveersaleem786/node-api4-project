@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "server": "cross-env COHORT=webpt12 nodemon index.js",
+    "watch": "nodemon --require dotenv/confing index.js",
     "start": "node index.js"
   },
   "repository": {
